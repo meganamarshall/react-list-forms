@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`colors component renders the colors 1`] = `
+<ul>
+  <li
+    classList="name"
+    key="undefined"
+  >
+    <Color
+      name="red"
+      rgb={
+        Object {
+          "blue": 0,
+          "green": 0,
+          "red": 255,
+        }
+      }
+    />
+  </li>
+  <li
+    classList="name"
+    key="undefined"
+  >
+    <Color
+      name="green"
+      rgb={
+        Object {
+          "blue": 0,
+          "green": 255,
+          "red": 0,
+        }
+      }
+    />
+  </li>
+  <li
+    classList="name"
+    key="undefined"
+  >
+    <Color
+      name="blue"
+      rgb={
+        Object {
+          "blue": 255,
+          "green": 0,
+          "red": 0,
+        }
+      }
+    />
+  </li>
+</ul>
+`;
