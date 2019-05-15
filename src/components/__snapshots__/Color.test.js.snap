@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`colors component renders the colors 1`] = `
+<li
+  className="Colors"
+>
+  <dt>
+    Name:
+  </dt>
+  <dd>
+    <div
+      classList="name"
+    >
+      red
+    </div>
+  </dd>
+  <dt>
+    Hex:
+  </dt>
+  <dd>
+    #FF0000
+  </dd>
+  <dt>
+    RGB:
+  </dt>
+  <dd>
+    <p>
+      Red - 
+      255
+    </p>
+    <p>
+      Green - 
+      0
+    </p>
+    <p>
+      Blue - 
+      0
+    </p>
+  </dd>
+</li>
+`;
