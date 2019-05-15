@@ -3,11 +3,12 @@ import PropTypes from 'prop-types';
 
 export default class CreateColor extends PureComponent {
   static propTypes = {
-    addColor: PropTypes.func.isRequired
+    addColor: PropTypes.func
   }
+
   state = {
     name: '',
-    color: 'white'
+    color: '#000000'
   }
 
   handleSubmit = event => {
@@ -29,7 +30,7 @@ export default class CreateColor extends PureComponent {
 
     return (
       <form onSubmit={this.handleSubmit}>
-        <input name="name" value={name} onChange={this.handleChange} />
+        <input name="name" type="text" value={name} onChange={this.handleChange} />
         <input name="color" type="color" value={color} onChange={this.handleChange} />
         <button>Add Color!</button>
       </form>
