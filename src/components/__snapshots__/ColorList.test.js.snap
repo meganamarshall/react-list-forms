@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`colorlist component renders the colorlist 1`] = `
+<Fragment>
+  <CreateColor
+    addColor={[Function]}
+  />
+  <Colors
+    colors={Array []}
+  />
+</Fragment>
+`;
