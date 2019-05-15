@@ -16,16 +16,16 @@ const rgbFromHex = hex => {
 function Color({ name, hex }) {
   const rgb = rgbFromHex(hex);
 
-  const styles = {
+  const style = {
     backgroundColor: hex,
     height: '100px',  
     width: '100px'
   };
 
   return (
-    <li className={styles}>
+    <dl>
       <dt>Name:</dt>
-      <dd>{name}</dd>
+      <dd>{name}<div style={style}></div></dd>
 
       <dt>Hex:</dt>
       <dd>{hex}</dd>
@@ -36,7 +36,7 @@ function Color({ name, hex }) {
         <p>Green - {rgb.green}</p>
         <p>Blue - {rgb.blue}</p>
       </dd>
-    </li>
+    </dl>
   );
 }
 

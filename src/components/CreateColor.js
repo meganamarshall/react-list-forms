@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 export default class CreateColor extends PureComponent {
   static propTypes = {
-    addColor: PropTypes.func
+    addColor: PropTypes.func.isRequired
   }
 
   state = {
