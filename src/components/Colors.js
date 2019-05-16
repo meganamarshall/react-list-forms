@@ -1,12 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Color from './Color';
-import styles from './Colors.css';
 
 function Colors({ colors }) {
-  const colorList = colors.map(({ name, hex, rgb }) => (
-    <li key={`${hex}`} classList={styles.name}>
-      <Color name={name} hex={hex} rgb={rgb} />
+  const colorList = colors.map(({ name, rgb }) => (
+    <li key={name}>
+      <Color name={name} rgb={rgb} />
     </li>
   ));
 

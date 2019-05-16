@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styles from './Colors.css';
 
 const hexFromColor = color => {
   return `${color.toString(16).padStart(2, 0)}`.toUpperCase();
@@ -11,13 +10,21 @@ const hexFromRGB = (rgb) => {
 };
 
 function Color({ name, rgb }) {
+  const hex = hexFromRGB(rgb);
+
+  const colorStyles = {
+    backgroundColor: hex,
+    width: '100px',
+    height: '400px'
+  };
+
   return (
-    <li className={styles.Colors}>
+    <dl style={colorStyles}>
       <dt>Name:</dt>
-      <dd><div classList={styles.name}>{name}</div></dd>
+      <dd>{name}</dd>
 
       <dt>Hex:</dt>
-      <dd>{hexFromRGB(rgb)}</dd>
+      <dd>{hex}</dd>
 
       <dt>RGB:</dt>
       <dd>
@@ -25,7 +32,7 @@ function Color({ name, rgb }) {
         <p>Green - {rgb.green}</p>
         <p>Blue - {rgb.blue}</p>
       </dd>
-    </li>
+    </dl>
   );
   
 }

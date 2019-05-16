@@ -3,8 +3,7 @@
 exports[`colors component renders the colors 1`] = `
 <ul>
   <li
-    classList="name"
-    key="undefined"
+    key="red"
   >
     <Color
       name="red"
@@ -18,8 +17,7 @@ exports[`colors component renders the colors 1`] = `
     />
   </li>
   <li
-    classList="name"
-    key="undefined"
+    key="green"
   >
     <Color
       name="green"
@@ -33,8 +31,7 @@ exports[`colors component renders the colors 1`] = `
     />
   </li>
   <li
-    classList="name"
-    key="undefined"
+    key="blue"
   >
     <Color
       name="blue"

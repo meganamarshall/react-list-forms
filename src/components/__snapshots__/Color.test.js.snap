@@ -1,18 +1,20 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`colors component renders the colors 1`] = `
-<li
-  className="Colors"
+<dl
+  style={
+    Object {
+      "backgroundColor": "#FF0000",
+      "height": "400px",
+      "width": "100px",
+    }
+  }
 >
   <dt>
     Name:
   </dt>
   <dd>
-    <div
-      classList="name"
-    >
-      red
-    </div>
+    red
   </dd>
   <dt>
     Hex:
@@ -37,5 +39,5 @@ exports[`colors component renders the colors 1`] = `
       0
     </p>
   </dd>
-</li>
+</dl>
 `;
