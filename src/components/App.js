@@ -5,8 +5,9 @@ export default function App() {
   return (
     <>
       <Sidebar>
-        <p>Child1</p>
-        <p>Child2</p>
+        <nav>Child1</nav>
+        <nav>Child2</nav>
+        <nav>Child3</nav>
       </Sidebar>
     </>
   );
