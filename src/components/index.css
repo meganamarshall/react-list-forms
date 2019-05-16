@@ -1,0 +1,11 @@
+.Sidebar {
+  display: grid;
+  grid-column-start: auto;
+  background-color: pink;
+  height: 100vw;
+  width: 25vw;
+
+  nav {
+    color: darkblue;
+  }
+}

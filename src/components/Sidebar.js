@@ -1,12 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styles from './index.css';
 
 function Sidebar({ children }) {
   return (
-    <>
-    <h1>Menu</h1>
-    {children}
-    </>
+    <nav classList={styles.Sidebar}>
+      {children}
+    </nav>
   );
 }
 
