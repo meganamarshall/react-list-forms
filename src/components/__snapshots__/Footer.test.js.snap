@@ -2,7 +2,7 @@
 
 exports[`footer component renders the footer 1`] = `
 <footer
-  className="Header"
+  className="Footer"
 >
   <p>
     By Megan 2019
