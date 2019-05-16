@@ -1,9 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`header component renders the header 1`] = `
-<Header>
+<header
+  className="Header"
+>
   <h1>
     My Photo Album
   </h1>
-</Header>
+</header>
 `;
