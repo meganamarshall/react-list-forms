@@ -1,11 +1,14 @@
 .Sidebar {
-  display: grid;
-  grid-column-start: auto;
-  background-color: pink;
-  height: 100vw;
-  width: 25vw;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 33vw;
+  height: 100vh;
+  padding: 1rem;
 
-  nav {
-    color: darkblue;
-  }
+  background-color: black;
+  color: white;
+
+  text-align: center;
+
 }
