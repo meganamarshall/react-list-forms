@@ -14,5 +14,6 @@ exports[`app component renders the app 1`] = `
     }
     title="Megan"
   />
+  <Footer />
 </Fragment>
 `;

@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './Header';
+import Footer from './Footer';
 import PhotoAlbum from './PhotoAlbum';
 import candyByColor from '../assets/candyByColor.jpg';
 import gettyImages from '../assets/gettyimages-649680072.jpg';
@@ -18,6 +19,7 @@ export default function App() {
     <>
       <Header />
       <PhotoAlbum title="Megan" photos={photos} />
+      <Footer />
     </>
   );
 }
