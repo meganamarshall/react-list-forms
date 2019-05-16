@@ -5,7 +5,7 @@ function Sidebar({ children }) {
   return (
     <>
     <h1>Menu</h1>
-    <nav>{children}</nav>
+    {children}
     </>
   );
 }
