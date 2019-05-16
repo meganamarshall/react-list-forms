@@ -1,9 +1,10 @@
 import React from 'react';
+import styles from './Header.css';
 
 export default function Header() {
   return (
-    <Header>
+    <header className={styles.Header}>
       <h1>My Photo Album</h1>
-    </Header>
+    </header>
   );
 }
