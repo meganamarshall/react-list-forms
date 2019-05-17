@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`app component renders the app 1`] = `
+<Fragment>
+  <Sidebar>
+    <p>
+      <a
+        onClick={[Function]}
+      >
+        Child1
+      </a>
+    </p>
+    <p>
+      <a
+        onClick={[Function]}
+      >
+        Child2
+      </a>
+    </p>
+    <p>
+      <a
+        onClick={[Function]}
+      >
+        Child3
+      </a>
+    </p>
+  </Sidebar>
+  <h1>
+    You haven't clicked anything yet
+  </h1>
+</Fragment>
+`;
