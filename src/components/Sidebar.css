@@ -5,6 +5,7 @@
   width: 33vw;
   height: 100vh;
   padding: 1rem;
+  font-size: 24px;
 
   background-color: black;
   color: white;
@@ -14,6 +15,7 @@
   a {
     display: flex;
     flex-direction: column;
+    color: pink;
   }
 
 }

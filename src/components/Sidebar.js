@@ -4,7 +4,7 @@ import styles from './Sidebar.css';
 
 function Sidebar({ children }) {
   return (
-    <nav classList={styles.Sidebar}>
+    <nav className={styles.Sidebar}>
       {children}
     </nav>
   );
